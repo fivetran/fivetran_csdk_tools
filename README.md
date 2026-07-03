@@ -35,6 +35,12 @@ Or from inside a Claude Code session:
 /plugin install fivetran-connector-sdk@fivetran-connector-sdk-ai
 ```
 
+To update:
+
+```bash
+claude plugin update fivetran-connector-sdk@fivetran-connector-sdk-ai
+```
+
 See [`claude-code/README.md`](claude-code/README.md) for the full tutorial.
 
 ### Codex CLI
@@ -42,6 +48,12 @@ See [`claude-code/README.md`](claude-code/README.md) for the full tutorial.
 ```bash
 codex plugin marketplace add fivetran/connector_sdk_tools
 codex plugin add fivetran-connector-sdk@fivetran-connector-sdk-ai
+```
+
+To update:
+
+```bash
+codex plugin marketplace upgrade fivetran-connector-sdk-ai
 ```
 
 Plugins must also be enabled in `~/.codex/config.toml`. See [`codex/README.md`](codex/README.md) for the full setup.
@@ -60,11 +72,23 @@ For non-interactive use (e.g., scripts):
 gemini extensions install https://github.com/fivetran/connector_sdk_tools --consent --skip-settings
 ```
 
+To update:
+
+```bash
+gemini extensions update fivetran-connector-sdk
+```
+
 ### GitHub Copilot CLI
 
 ```bash
 copilot plugin marketplace add fivetran/connector_sdk_tools
 copilot plugin install fivetran-connector-sdk@fivetran-connector-sdk-ai
+```
+
+To update:
+
+```bash
+copilot plugin update fivetran-connector-sdk
 ```
 
 See [`copilot/README.md`](copilot/README.md) for the full tutorial.

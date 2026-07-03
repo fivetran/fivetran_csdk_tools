@@ -25,6 +25,11 @@ See the [top-level README](../README.md#install) for the full install matrix. Qu
    codex plugin add fivetran-connector-sdk@fivetran-connector-sdk-ai
    ```
 
+   To update:
+   ```bash
+   codex plugin marketplace upgrade fivetran-connector-sdk-ai
+   ```
+
 3. Enable the plugin in `~/.codex/config.toml`:
    ```toml
    [plugins."fivetran-connector-sdk@fivetran-connector-sdk-ai"]

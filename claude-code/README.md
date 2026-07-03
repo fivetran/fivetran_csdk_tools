@@ -24,6 +24,12 @@ Or from inside a Claude Code session:
 /plugin install fivetran-connector-sdk@fivetran-connector-sdk-ai
 ```
 
+To update:
+
+```bash
+claude plugin update fivetran-connector-sdk@fivetran-connector-sdk-ai
+```
+
 ### Post-installation
 
 Install the tool dependencies:

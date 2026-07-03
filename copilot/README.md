@@ -18,6 +18,12 @@ copilot plugin marketplace add fivetran/connector_sdk_tools
 copilot plugin install fivetran-connector-sdk@fivetran-connector-sdk-ai
 ```
 
+To update:
+
+```bash
+copilot plugin update fivetran-connector-sdk
+```
+
 Install the tool dependencies:
 
 macOS/Linux:
