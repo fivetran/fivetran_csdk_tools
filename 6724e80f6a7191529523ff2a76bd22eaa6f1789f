@@ -1,0 +1,29 @@
+claude-code/README.md
+  157ab81663a0744c 27-32
+codex/README.md
+  157ab81663a0744c 28-32
+copilot/README.md
+  157ab81663a0744c 21-26
+README.md
+  157ab81663a0744c 38-43,53-58,75-80,88-93
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.1",
+  "base_commit_sha": "6724e80f6a7191529523ff2a76bd22eaa6f1789f",
+  "prompts": {
+    "157ab81663a0744c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "77a248f8-f065-43cd-bb99-48247deb191a",
+        "model": "<synthetic>"
+      },
+      "human_author": "fivetran-meetmahna <meet.mahna@fivetran.com>",
+      "messages": [],
+      "total_additions": 41,
+      "total_deletions": 0,
+      "accepted_lines": 41,
+      "overriden_lines": 0
+    }
+  }
+}
