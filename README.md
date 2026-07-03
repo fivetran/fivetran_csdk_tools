@@ -65,6 +65,11 @@ Note: If your current version of Codex CLI does not support the `add` command, p
 ```bash
 gemini extensions install https://github.com/fivetran/connector_sdk_tools
 ```
+To enable auto-updates on install, use the `--auto-update` flag:
+
+```bash
+gemini extensions install https://github.com/fivetran/connector_sdk_tools --auto-update
+```
 
 For non-interactive use (e.g., scripts):
 
@@ -88,7 +93,7 @@ copilot plugin install fivetran-connector-sdk@fivetran-connector-sdk-ai
 To update:
 
 ```bash
-copilot plugin update fivetran-connector-sdk
+copilot plugin update fivetran-connector-sdk@fivetran-connector-sdk-ai
 ```
 
 See [`copilot/README.md`](copilot/README.md) for the full tutorial.

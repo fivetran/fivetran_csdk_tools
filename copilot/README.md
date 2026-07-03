@@ -21,7 +21,7 @@ copilot plugin install fivetran-connector-sdk@fivetran-connector-sdk-ai
 To update:
 
 ```bash
-copilot plugin update fivetran-connector-sdk
+copilot plugin update fivetran-connector-sdk@fivetran-connector-sdk-ai
 ```
 
 Install the tool dependencies:
